@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 # the latest tag is v1.0.107, thus this should be updated by the renovate bot
-serde_json = "1.0.105"
-# serde_json = { git = "https://github.com/serde-rs/json", tag = 'v1.0.105' }
+serde_json = "1.0.105" # this works
+# serde_json = { git = "https://github.com/serde-rs/json", tag = 'v1.0.105' } # this does not work
